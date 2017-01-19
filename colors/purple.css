@@ -1,0 +1,76 @@
+
+/* ------- background color change ------- */
+
+.stuckMenu.navbar-wrapper{
+	background: transparent;
+	color:#fff;
+}
+.isStuck.navbar-wrapper{
+	background-color:#B061CF;
+}
+
+.navbar-wrapper,
+.about span.round,
+.protfolio .heading,
+.ourservice .heading,
+.portfolioFilter ul li a.current,
+.conForm .submitBnt,
+.footer ul li,
+.conForm .submitBnt:hover
+{
+	background-color:#B061CF;
+}
+
+ul.portfolioContainer li:hover span.hoverBox{
+	background: rgba(176, 97, 207, 0.9);
+}
+
+
+/* ------- Text color change ------- */
+
+ul.memberLink li:hover	a,
+.textQu h2 span,
+.countarea h3,
+.bannerText h1 span,
+.bannerText .mbnt:hover,
+.wework h2 span,
+.cinfoBox p a:hover
+{
+	color:#B061CF;
+}
+
+
+
+/* ------- Border color change ------- */
+.portfolioFilter ul li a.current,
+.bannerText h1 span,
+.bannerText .mbnt:hover
+{
+	border-color:#B061CF;
+}
+
+
+
+/* ------- Taxt color change on theme background color ------- */
+.about span.round,
+.portfolioFilter ul li a.current,
+.navbar.navbar-inverse.navbar-static-top a,
+.conForm .submitBnt,
+.conForm .submitBnt:hover,
+.protfolio .heading,
+.protfolio .heading p,
+.ourservice .heading,
+.ourservice .heading p,
+.ourservice .heading h2,
+.ourservice .heading h3{
+	color:#fff;
+}
+
+
+
+.stuckMenu .navbar.navbar-inverse.navbar-static-top a{
+	color:#fff;
+}
+.isStuck .navbar.navbar-inverse.navbar-static-top a{
+	color:#000;
+}
