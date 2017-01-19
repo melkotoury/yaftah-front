@@ -1,16 +1,14 @@
 
 /* ------- background color change ------- */
-
 .stuckMenu.navbar-wrapper{
 	background: transparent;
 	color:#fff;
 }
 .isStuck.navbar-wrapper{
-	background-color:#ffe400;
+	background-color:#29C5FF;
 }
 
 
-.navbar-wrapper,
 .about span.round,
 .protfolio .heading,
 .ourservice .heading,
@@ -19,11 +17,11 @@
 .footer ul li,
 .conForm .submitBnt:hover
 {
-	background-color:#ffe400;
+	background-color:#29C5FF;
 }
 
 ul.portfolioContainer li:hover span.hoverBox{
-	background: rgba(255, 228, 0, 0.9);
+	background: rgba(41, 197, 255, 0.9);
 }
 
 
@@ -37,19 +35,17 @@ ul.memberLink li:hover	a,
 .wework h2 span,
 .cinfoBox p a:hover
 {
-	color: #000000;
+	color:#29C5FF;
 }
 
-.textQu h2 span{
-	color: #ffe400;
-}
+
 
 /* ------- Border color change ------- */
 .portfolioFilter ul li a.current,
 .bannerText h1 span,
 .bannerText .mbnt:hover
 {
-	border-color:#ffe400;
+	border-color:#29C5FF;
 }
 
 

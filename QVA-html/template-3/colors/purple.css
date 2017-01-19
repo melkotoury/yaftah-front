@@ -6,9 +6,8 @@
 	color:#fff;
 }
 .isStuck.navbar-wrapper{
-	background-color:#ffe400;
+	background-color:#B061CF;
 }
-
 
 .navbar-wrapper,
 .about span.round,
@@ -19,11 +18,11 @@
 .footer ul li,
 .conForm .submitBnt:hover
 {
-	background-color:#ffe400;
+	background-color:#B061CF;
 }
 
 ul.portfolioContainer li:hover span.hoverBox{
-	background: rgba(255, 228, 0, 0.9);
+	background: rgba(176, 97, 207, 0.9);
 }
 
 
@@ -37,19 +36,17 @@ ul.memberLink li:hover	a,
 .wework h2 span,
 .cinfoBox p a:hover
 {
-	color: #000000;
+	color:#B061CF;
 }
 
-.textQu h2 span{
-	color: #ffe400;
-}
+
 
 /* ------- Border color change ------- */
 .portfolioFilter ul li a.current,
 .bannerText h1 span,
 .bannerText .mbnt:hover
 {
-	border-color:#ffe400;
+	border-color:#B061CF;
 }
 
 
@@ -66,7 +63,7 @@ ul.memberLink li:hover	a,
 .ourservice .heading p,
 .ourservice .heading h2,
 .ourservice .heading h3{
-	color:#000;
+	color:#fff;
 }
 
 

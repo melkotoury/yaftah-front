@@ -37,12 +37,10 @@ ul.memberLink li:hover	a,
 .wework h2 span,
 .cinfoBox p a:hover
 {
-	color: #000000;
+	color:#ffe400;
 }
 
-.textQu h2 span{
-	color: #ffe400;
-}
+
 
 /* ------- Border color change ------- */
 .portfolioFilter ul li a.current,

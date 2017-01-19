@@ -24,7 +24,6 @@
 	10. Footer Style
 	11. Theme changes style
 	12. Responsive style
-	13. Bootstrap Styles style
 		
 		
 --------------------------------------------------------------------------------/*
@@ -181,7 +180,7 @@ header{
 	padding:30px 0 30px ;
 	max-width:960px;
 	z-index:999999 ;
-
+	
 	animation-name: textBox;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -226,7 +225,7 @@ header{
 }
 .bannerText h1 span{
 	color:#ffe400;
-}
+}  
 .bannerText p{
 	font-size:14px;
 	text-transform:none;
@@ -255,22 +254,22 @@ header{
 --------------------------------------*/
 .slieback{
 	/* Set rules to fill background */
-	min-height: 100%;
-	min-width: 1024px;
-
-	/* Set up proportionate scaling */
+	 min-height: 100%;
+	 min-width: 1024px;
+	
+  	/* Set up proportionate scaling */
 	width: 100%;
 	height: auto;
-
-	/* Set up positioning */
-	position: absolute;
-	top: 0;
-	left: 0;
-
+	
+  	/* Set up positioning */
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+	
 	opacity:0.5;
 	filter:alpha(opacity=50); /* For IE8 and earlier */
-
-}
+ 
+ }
 .banner{
 	background:#000;
 }
@@ -286,17 +285,17 @@ header{
  	3.2 Menu Style
 ------------------------------------------------------*/
 .isStuck{
-	left:0px;
-	width:100%;
+    left:0px;
+    width:100%;
 }
 .menu{
-	margin-top:0px;
-	position: absolute;
-	z-index:9;
-	margin-top:20px;
-	left:0px;
-	right:0px;
-	margin-bottom:-100px;
+	 margin-top:0px;
+	 position: absolute;
+	 z-index:9;
+	 margin-top:20px;
+	 left:0px;
+	 right:0px;
+	 margin-bottom:-100px;
 }
 .logo{
 	float:left;
@@ -342,10 +341,10 @@ header{
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-	margin-top:0px;
-	height:80px;
-	position: relative;
-	z-index: 15;
+  margin-top:0px;
+  height:80px;
+  position: relative;
+  z-index: 15;
 }
 .navbar-wrapper .container{
 	padding:0px;
@@ -359,31 +358,31 @@ header{
 }
 
 .navbar.navbar-inverse.navbar-static-top {
-	margin:0px auto;
-	background:none;
-	color:#c3c8d6;
-	border:none;
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	font-weight:600;
-	text-transform:uppercase;
+  margin:0px auto;
+  background:none;
+  color:#c3c8d6;
+  border:none;
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+  font-weight:600;
+  text-transform:uppercase;
 }
 .navbar.navbar-inverse.navbar-static-top a{
-	color:#fff;
-	padding:31px 13px;
-	line-height:18px;
-	text-align:center;
+  color:#fff;
+  padding:31px 13px;
+  line-height:18px;
+  text-align:center;
 }
 .navbar.navbar-inverse.navbar-static-top a:hover{
-	background:none;
-	color:#fff;
+  background:none;
+  color:#fff;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
-	background: none;
-	color:#fff !important;
+  background: none;
+  color:#fff !important;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
-	color:#fff;
+  color:#fff;
 }
 
 .hideClass{
@@ -393,34 +392,34 @@ header{
 
 
 .isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
-	background: #181a1c;
-	color:#fff ;
+  background: #181a1c;
+  color:#fff ;
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
-	background:#181a1c;
-	color:#fff;
+  background:#181a1c;
+  color:#fff;
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a{
-	color:#000;
+  color:#000;
 }
 
 .stuckMenu{
 	-o-transition: all .5s;
-	-ms-transition: all .5s;
-	-moz-transition: all .5s;
-	-webkit-transition: all .5s;
-	transition: all .5s;
-
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+	
 	background: transparent;
 }
 .isStuck{
 	background:#ffe400 ;
-
+	
 	-o-transition: all .5s;
-	-ms-transition: all .5s;
-	-moz-transition: all .5s;
-	-webkit-transition: all .5s;
-	transition: all .5s;
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
 }
 
 
@@ -432,19 +431,19 @@ header{
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-	z-index: 10;
+  z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	height: 600px;
-	background-color: #0A64A4;
+  height: 600px;
+  background-color: #0A64A4;
 }
 .carousel-inner > .item > img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
 }
 
 
@@ -521,7 +520,7 @@ header{
 }
 .textQu i{
 	font-size:20px;
-
+	
 }
 
 
@@ -530,17 +529,13 @@ header{
 	5. About Us Style
 ------------------------------------------------------*/
 .aboutus{
-	background:#f5f3ef;
-	color:#fff;
-	position:relative;
-
-
-
-
+	background:#ffffff;
+	color:#242424;
+	text-align:center;
 }
 .aboutus .container{
 	padding-top:85px ;
-	padding-bottom:93px ;
+	padding-bottom:69px ;
 }
 .aboutus .heading p{
 	padding-bottom:41px;
@@ -571,7 +566,7 @@ header{
 	text-align: center;
 	padding-top: 40px;
 	margin-bottom:45px;
-
+	
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -593,7 +588,7 @@ header{
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	background: rgb(255, 228, 0);
+	background: rgba(0, 0, 0, 0.7);
 }
 .factabout .container{
 	padding-top:0px;
@@ -607,10 +602,10 @@ header{
 	padding-bottom:20px;
 	font-weight:700;
 	text-transform:uppercase;
-	color: #000;
+	color:#fff;
 }
 .factabout p{
-	color: #000000;
+	color:#d8d8d8;
 	line-height:25px;
 }
 .countarea{
@@ -627,47 +622,47 @@ header{
 .countarea p{
 	font-size:12px;
 	padding-bottom:10px;
-	color: #000000;
+	color:#fefefe;
 	text-transform:uppercase;
 }
 
 
 
 /*----------------------------------------------------
-	 6. I am... Style
+	 6. Our Team Style
 ------------------------------------------------------*/
-.iam{
+.ourteam{
 	background:#fff;
 }
-.iam .container{
+.ourteam .container{
 	padding-top:85px ;
 	padding-bottom:90px ;
 }
 
-.iam h2{
+.ourteam h2{
 	color:#242424;
 }
-.iam h3{
+.ourteam h3{
 	color:#242424;
 }
-.iam h3.membername{
+.ourteam h3.membername{
 	padding-bottom:5px;
 }
 p.jobrole{
 	padding-bottom:12px;
 }
-.iam p{
+.ourteam p{
 	color:#5b5b5b;
-	line-height: 20px;
+	line-height:25px;
 }
-.iam .heading p{
+.ourteam .heading p{
 	padding-bottom:41px;
 }
 
-.iam h4{
+.ourteam h4{
 	font-weight:700;
 }
-.iam .box{
+.ourteam .box{
 	border:solid 1px #dbdbdb;
 }
 
@@ -676,9 +671,9 @@ p.jobrole{
 	border-right:solid 1px #dbdbdb;
 	padding:60px 30px 50px;
 }
-/* .member:nth-child(n+4){
+.member:nth-child(3n+3){
 	border-right:none;
-} */
+}
 
 .member h3{
 	font-weight:400;
@@ -686,9 +681,9 @@ p.jobrole{
 }
 .member span.round{
 	margin:0 auto;
-	width: 174px;
+	width:230px;
 	max-width:100%;
-	height: 174px;
+	height:230px;
 	max-height:100%;
 	overflow:hidden;
 	display:block;
@@ -717,9 +712,9 @@ ul.memberLink li{
 	margin:0 1px 5px;
 	width:34px !important;
 	height:34px !important;
-
+	
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+    border-radius: 50%;
 }
 ul.memberLink li:hover{
 	background:#212121 ;
@@ -731,11 +726,11 @@ ul.memberLink li:hover	a{
 
 ul.memberLink li a{
 	color:#fff;
-	width: 26px !important;
-	height: 26px !important;
+	width:34px !important;
+	height:34px !important;
 }
 ul.memberLink li a i{
-	line-height: 28px !important;
+	line-height:34px !important;
 }
 
 
@@ -801,7 +796,7 @@ ul.memberLink li a i{
 	text-decoration:none;
 	border:solid 1px #dbdbdb;
 	border-right:none;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -812,7 +807,7 @@ ul.memberLink li a i{
 .portfolioFilter ul li a:hover{
 	border-color:#cfcfcf;
 	color:#5b5b5b;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -845,9 +840,9 @@ ul.portfolioContainer li .lightCon{
 	overflow:hidden;
 }
 ul.portfolioContainer li img{
-	width:100% !important;
-	height:auto;
-	display:block;
+	 width:100% !important;
+	 height:auto;
+	 display:block;
 }
 
 span.hoverBox{
@@ -857,20 +852,20 @@ span.hoverBox{
 	position: absolute;
 	left:0px;
 	bottom: 0px;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-
+	
 	background: rgba(0, 0, 0, 0.1);
-
+	
 }
 ul.portfolioContainer li:hover span.hoverBox{
 	visibility:visible;
 	left:0px;
 	bottom: 0px;
-
+	
 	background: rgba(255, 228, 0, 0.8);
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -902,10 +897,10 @@ span.hoverBox .zoom{
 	line-height:50px;
 	display: block;
 	float: left;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-
+	
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -913,7 +908,7 @@ ul.portfolioContainer li:hover span.hoverBox .zoom{
 	visibility:visible;
 	left:0;
 	padding-top:7px;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
@@ -931,10 +926,10 @@ span.hoverBox .linKed{
 	line-height:52px;
 	display: block;
 	float: right;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
-
+	
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
 }
@@ -942,38 +937,38 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	visibility:visible;
 	right:0%;
 	padding-top:7px;
-
+	
 	transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 }
 
 
 .isotope-item {
-	z-index: 2;
+    z-index: 2;
 }
 .isotope-hidden.isotope-item {
-	pointer-events: none;
-	z-index: 1;
+    pointer-events: none;
+    z-index: 1;
 }
 .isotope,
 .isotope .isotope-item {
-	/* change duration value to whatever you like */
+  /* change duration value to whatever you like */
 
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
 }
 .isotope {
-	-webkit-transition-property: height, width;
-	-moz-transition-property: height, width;
-	transition-property: height, width;
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
 }
 .isotope .isotope-item {
 	padding:0;
-
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform, opacity;
-	transition-property: transform, opacity;
+	
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
 }
 
 
@@ -1003,7 +998,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin-left: -26% !important;
 	padding: 0px !important;
 	height:80px !important;
-
+	
 	display: block;
 	background-color: rgba(24,27,34,1);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B0000000, EndColorStr=#B0000000);
@@ -1030,9 +1025,9 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	margin:0 auto;
 	background:#2a2a2a;
 	margin-bottom:45px;
-
+	
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+    border-radius: 50%;
 }
 .testimonial h3{
 	font-size:24px;
@@ -1072,9 +1067,9 @@ ol.flex-control-paging li a{
 	display:block;
 	border:solid 1px #818181;
 	cursor:pointer;
-
+	
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+    border-radius: 50%;
 }
 ol.flex-control-paging li a.flex-active{
 	background:#2a2a2a;
@@ -1102,11 +1097,11 @@ ul.flex-direction-nav{
 	top: 29px;
 	background:url(../images/left-arrow.png) no-repeat 0 50%;
 	opacity:0.3;
-
+		
 	-webkit-transition-duration: 700ms;
-	-moz-transition-duration: 700ms;
-	-o-transition-duration: 700ms;
-	transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
 }
 .worlcompany ul.flex-direction-nav li a.flex-prev:hover{
 	opacity:1.0;
@@ -1122,11 +1117,11 @@ ul.flex-direction-nav{
 	top: 29px;
 	background:url(../images/right-arrow.png) no-repeat 0 50%;
 	opacity:0.3;
-
+	
 	-webkit-transition-duration: 700ms;
-	-moz-transition-duration: 700ms;
-	-o-transition-duration: 700ms;
-	transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
 }
 .worlcompany ul.flex-direction-nav li a.flex-next:hover{
 	opacity:1.0;
@@ -1149,7 +1144,7 @@ ul.flex-direction-nav{
 	margin:0 11px;
 	padding:22px 33px;
 	border:solid 1px #8a8a8b;
-	display:inline-block;
+	display:inline-block;	
 	width:auto !important;
 }
 
@@ -1199,7 +1194,7 @@ ul.flex-direction-nav{
 ------------------------------------------------------*/
 
 .contact{
-	background: #181a1c;
+	background:#fff;
 }
 .contact .container{
 	padding-top:85px ;
@@ -1207,13 +1202,13 @@ ul.flex-direction-nav{
 }
 
 .contact h2{
-	color: #ffffff;
+	color:#242424;
 }
 .contact h3{
-	color: #ffffff;
+	color:#242424;
 }
 .contact p{
-	color: #ffffff;
+	color:#5b5b5b;
 }
 .contact .heading p{
 	padding-bottom:41px;
@@ -1366,9 +1361,9 @@ ul.flex-direction-nav{
 	line-height:145px;
 	width:150px;
 	height:150px;
-
+	
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+    border-radius: 50%;
 }
 .cinfoBox p{
 	font-weight:600;
@@ -1411,9 +1406,9 @@ ul.flex-direction-nav{
 	margin:0 6px 14px;
 	width:64px !important;
 	height:64px !important;
-
+	
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+    border-radius: 50%;
 }
 .footer ul li:hover{
 	background:#2a2a2a ;
@@ -1625,7 +1620,7 @@ div.open-close {
 
 
 
-
+	
 /*---------------------------------------------------------------------------------
 	 12. Responsive style
 -------------------------------------------------------------------------------*/
@@ -1636,7 +1631,7 @@ div.open-close {
 		height:140px;
 		padding-top:50px;
 	}
-
+	
 	.education .workYear{
 		padding-top:58px;
 	}
@@ -1648,7 +1643,7 @@ div.open-close {
 		padding-left:12px;
 		padding-right:12px;
 	}
-
+	
 	.bannerText{
 		padding-left:25px;
 		padding-right:25px;
@@ -1663,7 +1658,7 @@ div.open-close {
 	.proPic{
 		text-align:center;
 	}
-
+	
 	.navbar-inverse .navbar-toggle .icon-bar{
 		background:#000;
 	}
@@ -1685,11 +1680,11 @@ div.open-close {
 	#header h3 span{
 		font-size: 16px;
 	}
-
+	
 	.abc{
 		width:100%;
 	}
-
+	
 	.navbar.navbar-inverse.navbar-static-top a {
 		padding-left: 7px;
 		padding-right:8px;
@@ -1715,7 +1710,7 @@ div.open-close {
 		display: block !important;
 		visibility: visible !important;
 	}
-
+	
 	.navbar-nav{
 		width: 100%;
 		color:#fff;
@@ -1728,7 +1723,7 @@ div.open-close {
 	.navbar.navbar-inverse.navbar-static-top a:hover{
 		background-color:none;
 	}
-
+	
 	.navbar-nav > li{
 		float:none;
 		display:block;
@@ -1741,26 +1736,26 @@ div.open-close {
 	.navbar-nav > li.active> a:hover{
 		background:#000 !important;
 	}
-	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:hover, 
 	.navbar-inverse .navbar-toggle:focus {
 		background-color:inherit;
 	}
-	.navbar-inverse .navbar-toggle.active,
+	.navbar-inverse .navbar-toggle.active, 
 	.navbar-inverse .navbar-toggle.active:focus {
 		background-color:#000;
 	}
-	.navbar-inverse .navbar-toggle.active .icon-bar,
+	.navbar-inverse .navbar-toggle.active .icon-bar, 
 	.navbar-inverse .navbar-toggle.active:focus .icon-bar {
 		background-color:#fff;
 	}
 	.navbar-inverse .navbar-toggle .icon-bar {
 		background-color:#000;
 	}
-
+	
 	.navbar-toggle {
 		display:block !important;
 	}
-
+	
 }
 
 
@@ -1783,14 +1778,14 @@ div.open-close {
 	ul.portfolioContainer li.col-xs-6{
 		width:49%;
 		min-height: 85px;
-
+		
 	}
-
+	
 	.member{
 		border-right:none;
 		border-bottom: solid 1px #dbdbdb;
 	}
-
+	
 }
 
 
@@ -1836,8 +1831,8 @@ div.open-close {
 		-ms-transform: translate(0px, -70px); /* IE 9 */
 		-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
 	}
-
-
+	
+	
 	.bannerText {
 		top: 25%;
 		padding-top:15px;
@@ -1867,27 +1862,27 @@ div.open-close {
 		min-height: 600px;
 		height: 100%;
 	}
-
+	
 	.item{
 		width: 19%;
 	}
 	.item p {
 		font-size: 36px;
 	}
-
+	
 	.ourservice img{
 		width:100%;
 	}
-
+	
 	ul.portfolioContainer li.col-xs-6{
 		width:100%;
 	}
-
+	
 	.bntDownload{
 		font-size: 13px;
 		padding: 16px 14px;
 	}
-
+	
 	.conForm textarea{
 		margin-bottom:20px;
 	}
@@ -1895,30 +1890,16 @@ div.open-close {
 		display:block;
 		padding:0 0 40px 0;
 	}
-
+	
 	.nameError,
 	.emailError{
 		left:0px;
 		top:0px;
-
+		
 	}
 }
 
-/*---------------------------------------------------------------------------------
-	 13. Bootstrap Styles style
--------------------------------------------------------------------------------*/
 
-.btn-primary {
-	color: #181a1c;
-	background-color: #ffe400;
-	border-color: #d2bc00;
-}
-
-.btn-primary:active,.btn-primary:hover,.btn-primary:visited {
-	color: #181a1c;
-	background-color: #ffd613;
-	border-color: #d2bc00;
-}
 
 
 
