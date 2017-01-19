@@ -1,0 +1,94 @@
+/* ------------------------------------------------------------------------------
+
+	Author Name: Root Cave
+	Template URI: http://www.yaftah.com/
+	Description: One Page Parallex Website with Bootstrap
+	Author: Andy
+	Author URI: http://www.rootcave.com
+
+	Version: 1.0
+
+    1. Style Customization
+	2. Breadcrumb Section
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------
+	1. Style Customization
+-------------------------------------------------------------------------------*/
+.menu{
+    margin-top:0px;
+    position: fixed;
+}
+
+.logo{
+
+    background: url(../images/logo.png) no-repeat 0 0;
+
+}
+.textQu{
+    background: #ffe400;
+
+}
+
+.textQu:after {
+
+    background: #ffffff;
+}
+.textQu h2{
+    color:#242424;
+}
+.textQu h3{
+    color:#242424;
+}
+.textQu h3.membername{
+    padding-bottom:5px;
+}
+p.jobrole{
+    padding-bottom:12px;
+}
+.textQu p{
+    color:#5b5b5b;
+    line-height: 20px;
+}
+.textQu .heading p{
+    padding-bottom:41px;
+}
+
+.textQu h4{
+    font-weight:700;
+}
+.textQu .box{
+    border:solid 1px #dbdbdb;
+}
+
+/* ------------------------------------------------------------------------------
+	2. Breadcrumb Section
+-------------------------------------------------------------------------------*/
+
+
+
+
+
+.navigate{
+    position: relative;
+    top: 80px;
+    /* background: green; */
+}
+.navigate .container{
+
+}
+.navigate ol{background: black;}
+.navigate li{
+
+}
+.navigate li a{color: white;}
+.breadcrumb > .active {
+    color: #ffe400;
+}
