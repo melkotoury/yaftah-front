@@ -845,28 +845,137 @@ License: You must have a valid license purchased only from themeforest(the above
                             </div>
                         </div>
                 <div id="mySidenav" class="sidenav pull-right">
+                    <div class="blue">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search For ..">
-                        <span class="input-group-btn">
-                            <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                            </button>
-                        </span>
-                    </div>	
-                    <a href="#">Search by country</a>
-                    <a href="#">Search by city</a>
-                    <a href="#">Search by availability on date (from / To )</a>
-                    <a href="#">Search by selected area</a>
-                    <a href="#">Search by nearby</a>
-                    <a href="#">Search by Area class</a>
-                    <a href="#">Search by audience segment</a>
-                    <a href="#">Search by media type</a>
-                    <a href="#">Search by media owner</a>
-                    <a href="#">Search by media category</a>
-                    <a href="#">Search by media price</a>
-                    <a href="#">Search by media specs</a>
-                    <a href="#">number of viewer</a>
+                    <div class="scroller scroller-left"><i class="glyphicon glyphicon-chevron-left"></i></div>
+                    <div class="scroller scroller-right"><i class="glyphicon glyphicon-chevron-right"></i></div>
+                      <div class="wrapper">
+                        <ul class="nav nav-pills list" id="myTab">
+                          <li class="active"><a data-toggle="pill" href="#country">Country</a></li>
+                          <li><a data-toggle="pill" href="#city">City</a></li>
+                          <li><a data-toggle="pill" href="#selected-area">Selected Area</a></li>
+                          <li><a data-toggle="pill" href="#nearby">Nearby</a></li>
+                          <li><a data-toggle="pill" href="#area-class">Area Class</a></li>
+                          <li><a data-toggle="pill" href="#audience-segment">Audience Segment</a></li>
+                          <li><a data-toggle="pill" href="#media-type">Media Type</a></li>
+                          <li><a data-toggle="pill" href="#media-owner">Media Owner</a></li>
+                          <li><a data-toggle="pill" href="#media-category">Media Category</a></li>
+                          <li><a data-toggle="pill" href="#media-price">Media Price</a></li>
+                          <li><a data-toggle="pill" href="#media-specs">Media Specs</a></li>
+                          <li><a data-toggle="pill" href="#num-of-viewer">Number Of Viewer</a></li>
+                      </ul>
+                      </div>
+                
+                    <div class="tab-content">
+                        <div id="country" class="tab-pane fade in active">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Country">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="city" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For City">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div> </div>
+                        <div id="selected-area" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Selected Area">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="nearby" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Nearby">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="area-class" class="tab-pane fade in active">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Area Class">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="audience-segment" class="tab-pane fade">
+                           <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Audience Segment">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="media-type" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Media Type">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="media-owner" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Media Owner">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div><div id="media-category" class="tab-pane fade in active">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Media Category">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="media-price" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Media Price">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="media-specs" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Media Specs">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="num-of-viewer" class="tab-pane fade">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search For Num Of Viewer">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                    </div>
             </div>
         </div>
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
@@ -1069,27 +1178,90 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="../assets/global/scripts/datatable.js"></script>
 <script src="../assets/admin/pages/scripts/ecommerce-orders.js"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
-<script>
-        jQuery(document).ready(function() {    
-           Metronic.init(); // init metronic core components
-Layout.init(); // init current layout
-Demo.init(); // init demo features
-           EcommerceOrders.init();
+    <script>
+            jQuery(document).ready(function() {    
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Demo.init(); // init demo features
+            EcommerceOrders.init();
         });
     </script>
        <script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "500px";
-    document.getElementById("map").style.pointerEvents = "none";  
-    document.getElementById("map").style.opacity = "0.2"; 
-}
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "500px";
+                document.getElementById("map").style.pointerEvents = "none";  
+                document.getElementById("map").style.opacity = "0.2"; 
+            }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("map").style.pointerEvents = "all";
-    document.getElementById("map").style.opacity = "1";
-}
-</script>
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("map").style.pointerEvents = "all";
+                document.getElementById("map").style.opacity = "1";
+            }
+                       var hidWidth;
+            var scrollBarWidths = 40;
+
+            var widthOfList = function(){
+              var itemsWidth = 0;
+              $('.list li').each(function(){
+                var itemWidth = $(this).outerWidth();
+                itemsWidth+=itemWidth;
+              });
+              return itemsWidth;
+            };
+
+            var widthOfHidden = function(){
+              return (($('.wrapper').outerWidth())-widthOfList()-getLeftPosi())-scrollBarWidths;
+            };
+
+            var getLeftPosi = function(){
+              return $('.list').position().left;
+            };
+
+            var reAdjust = function(){
+              if (($('.wrapper').outerWidth()) < widthOfList()) {
+                $('.scroller-right').show();
+              }
+              else {
+                $('.scroller-right').hide();
+              }
+
+              if (getLeftPosi()<0) {
+                $('.scroller-left').show();
+              }
+              else {
+                $('.item').animate({left:"-="+getLeftPosi()+"px"},'slow');
+                $('.scroller-left').hide();
+              }
+            }
+
+            reAdjust();
+
+            $(window).on('resize',function(e){  
+                reAdjust();
+            });
+
+            $('.scroller-right').click(function() {
+
+              $('.scroller-left').fadeIn('slow');
+
+              $('.list').animate({left:"-="+"200px"},'slow',function(){
+                             reAdjust();
+              });
+            });
+
+            $('.scroller-left').click(function() {
+
+                $('.scroller-right').fadeIn('slow');
+                
+                $('.list').animate({left:"+="+"200px"},'slow',function(){
+                               reAdjust();
+
+                });
+            });   
+
+        </script>
+    
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->

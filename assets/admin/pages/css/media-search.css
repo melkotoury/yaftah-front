@@ -5,23 +5,29 @@
     z-index: 2;
     top: 20%;
     left:63%;
-    background-color: #111;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    background-color: #4285f4;
 }
-
+.blue
+{
+    background-color: #4285f4;
+    color: white;
+}
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: black;
+    background-color: white;
 }
 
 .sidenav .closebtn {
@@ -30,9 +36,65 @@
     left: -50px;
     font-size: 36px;
     margin-left: 50px;
+    color: white;
+}
+.sidenav .closebtn:hover
+{
+     background-color: #4285f4;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+.wrapper {
+    position:relative;
+    margin:0 auto;
+    overflow:hidden;
+	padding:5px;
+  	height:50px;
+}
+
+.list {
+    position:absolute;
+    left:0px;
+    top:0px;
+  	min-width:3000px;
+  	margin-left:12px;
+    margin-top:0px;
+}
+
+.list li{
+	display:table-cell;
+    position:relative;
+    text-align:center;
+    cursor:grab;
+    cursor:-webkit-grab;
+    color:#efefef;
+    vertical-align:middle;
+}
+
+.scroller {
+  text-align:center;
+  cursor:pointer;
+  display:none;
+  padding:7px;
+  padding-top:11px;
+  white-space:no-wrap;
+  vertical-align:middle;
+  background-color:#4285f4;
+}
+
+.scroller-right{
+  float:right;
+    color:white;
+}
+
+.scroller-left {
+  float:left;
+     color: white;
+}
+.tab-content input
+{
+    color: #4285f4;
 }
