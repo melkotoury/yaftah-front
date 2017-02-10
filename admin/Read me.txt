@@ -1,0 +1,2 @@
+Don't try to move the .html pages from the Pages folder
+as the assets in the previous folder it should be 2 folders away from the index.html and the other pages
