@@ -18,7 +18,7 @@
 }
 .white
 {
-    height: 60%;
+    height: 70%;
     background-color: white;
 }
 .sidenav a {
@@ -81,22 +81,28 @@
 }
 
 .scroller {
-  text-align:center;
   cursor:pointer;
   padding:7px;
   padding-top:11px;
-  vertical-align:middle;
   background-color:#4285f4;
 }
 
 .scroller-right{
-  float:right;
+    cursor:pointer;
+  padding:7px;
+  padding-top:11px;
+  background-color:#4285f4;
+    float: right;
     color:white;
 }
 
 .scroller-left {
-  float:left;
-     color: white;
+    cursor:pointer;
+  padding:7px;
+  padding-top:11px;
+  background-color:#4285f4;
+    float:left;
+    color: white;
 }
 .tab-content input
 {
