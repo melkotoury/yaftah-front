@@ -801,149 +801,360 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>
 						<li>
 							<a href="#">Properties</a>
+                            <i class="fa fa-angle-right"></i>
+						</li>
+                        <li>
+							<a href="#">New Properties</a>
 						</li>
 					</ul>
-					<div class="page-toolbar">
-						<div class="btn-group pull-right">
-							<a type="button" class="btn btn-fit-height grey-salt" href="new_properties.html">
-							New <i class="icon-doc"></i>
-                            </a>
-						</div>
-					</div>
 				</div>
 				<!-- END PAGE HEADER-->
 				<!-- BEGIN PAGE CONTENT-->
-                <div class="portlet-body">
-								<div class="table-responsive">
-									<table class="table">
-									<thead>
-									<tr>
-										<th>
-											 #
-										</th>
-										<th>
-											 Title
-										</th>
-										<th>
-											 Description
-										</th>
-										<th>
-											 Unit ID
-										</th>
-										<th>
-											 Country
-										</th>
-										<th>
-											 Actions
-										</th>
-										<th>
-											 Status
-										</th>
-									</tr>
-									</thead>
-									<tbody>
-									<tr>
-										<td>
-											 1
-										</td>
-										<td>
-											 John Doe
-										</td>
-										<td>
-											 advertising for my football club
-										</td>
-										<td>
-											 112333444555
-										</td>
-										<td>
-											 Egypt
-										</td>
-										<td>
-											 <a type="button" class="btn btn-fit-height grey-salt" href="Edit.html">
-                                                Edit 
-                                            </a>
-                                            <a type="button"  class="btn btn-danger">
-                                            Delete
-                                            </a>
-                                             <a type="button" class="btn btn-info">
-                                            View
-                                            </a>
-                                        
-										</td>
-										<td>
-											 <i class="icon-like"></i> / <i class="icon-dislike"></i>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											 2
-										</td>
-										<td>
-											 John Doe
-										</td>
-										<td>
-											 advertising for my football club
-										</td>
-										<td>
-											 112333444555
-										</td>
-										<td>
-											 Egypt
-										</td>
-										<td>
-                                            <a type="button" class="btn btn-fit-height grey-salt" href="Edit.html">
-                                                Edit 
-                                            </a>
-                                            <a type="button" class="btn btn-danger">
-                                            Delete
-                                            </a>
-                                             <a type="button" class="btn btn-info">
-                                            View
-                                            </a>
-                                        
-										</td>
-										<td>
-											 <i class="icon-like"></i> / <i class="icon-dislike"></i>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											 3
-										</td>
-										<td>
-											 John Doe
-										</td>
-										<td>
-											 advertising for my football club
-										</td>
-										<td>
-											 112333444555
-										</td>
-										<td>
-											 Egypt
-										</td>
-										<td>
-											 <a type="button" class="btn btn-fit-height grey-salt" href="Edit.html">
-                                                Edit 
-                                            </a>
-                                            <a type="button" class="btn btn-danger">
-                                            Delete
-                                            </a>
-                                             <a type="button" class="btn btn-info">
-                                            View
-                                            </a>
-                                        
-										</td>
-										<td>
-											 <i class="icon-like"></i> / <i class="icon-dislike"></i>
-										</td>
-									</tr>
-									</tbody>
-									</table>
-								</div>
-							</div>
-				<!-- END PAGE CONTENT-->
-			</div>
+                <div class="portlet box blue-hoki">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="fa fa-gift"></i>New Properties
+                        </div>
+                        <div class="tools">
+                            <a href="javascript:;" class="collapse">
+                            </a>
+                            <a href="javascript:;" class="reload">
+                            </a>
+                            <a href="javascript:;" class="remove">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portlet-body form">
+                        <!-- BEGIN FORM-->
+                        <form action="#" class="form-horizontal">
+                            <div class="form-body">
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Title</label>
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" placeholder="Title" value="John Doe">
+                                        <span class="help-block">
+                                            Enter the title here </span>
+                                    </div>
+                                </div><hr>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Description</label>
+                                    <div class="col-md-4">
+                                            <textarea type="text" class="form-control" placeholder="Description">advertising for my football club</textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Unit ID</label>
+                                    <div class="col-md-4">
+                                            <input type="Number" class="form-control" placeholder="Unit ID" value="112333444555">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Country</label>
+                                    <div class="col-md-4">
+                                            <select class="form-control">
+                                                <option selected>Egypt</option>
+                                                <option>USA</option>
+                                                <option>Kewit</option>
+                                                <option>England</option>
+                                                <option>Italy</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">City</label>
+                                    <div class="col-md-4">
+                                             <select class="form-control">
+                                                <option>Cairo</option>
+                                                <option selected>Giza</option>
+                                                <option>Luxor</option>
+                                                <option>Aswan</option>
+                                                <option>Alexandria</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                 <div class="form-group">
+                                    <label class="col-md-3 control-label">District</label>
+                                    <div class="col-md-4">
+                                             <select class="form-control">
+                                                <option selected>Mohndsen</option>
+                                                <option>Ramses</option>
+                                                <option>Tahrer</option>
+                                                <option>Zamalik</option>
+                                                <option>Maadi</option>
+                                            </select>
+                                    </div>
+                                </div>                
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Area Classes</label>
+                                    <div class="col-md-4">
+                                        <div class="checkbox-list">
+                                            <label>
+                                               <input type="checkbox" checked>A</label>
+                                            <label>
+                                               <input type="checkbox" checked>B </label>
+                                            <label>
+                                                <input type="checkbox">C</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Audience</label>
+                                        <div class="col-md-8">
+                                            <select class="js-example-basic-multiple form-control" multiple="multiple">
+                                                <option>Business Men &amp; Women</option>
+                                                <option selected>Corporate Audience</option>
+                                                <option>Elite</option>
+                                                <option selected>Families</option>
+                                                <option>General</option>
+                                                <option>Government Officials</option>
+                                                <option>High Income Earners</option>
+                                                <option>Low Income Earners</option>
+                                                <option selected>Medium &amp; Upscale Shoppers</option>
+                                                <option>Middle Class</option>
+                                                <option>Mobile &amp; Urban Clientele</option>
+                                                <option selected>Students</option>
+                                                <option>Tourists</option>
+                                                <option>Traders</option>
+                                                <option>Young Adults &amp; Adults</option>              
+                                            </select>
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Media Type</label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input  type="radio" name="optionsRadios" id="optionsRadios1" value="traditional" checked="checked"
+>Traditional</label>
+												<label class="radio-inline">
+												<input type="radio" name="optionsRadios" id="optionsRadios1" value="digital" >Digital</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Location Type</label>
+                                    <div class="col-md-5">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio"  name="optionsRadios" id="optionsRadios4" value="indoor" checked="checked"
+>Indoor</label>
+												<label class="radio-inline">
+												<input type="radio" name="optionsRadios" id="optionsRadios4" value="outdoor" checked="">Outdoor</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Category</label>
+                                    <div class="col-md-4">
+                                       <select class="form-control">
+                                           <option>Junior Poster</option>
+                                           <option>Kiosk</option>
+                                           <option>Laundromat Media</option>
+                                           <option>Mall</option>
+                                           <option>Mobile</option>
+                                           <option>Newsstand</option>
+                                           <option>Office Digital Network</option>
+                                           <option>Other Digital Network</option>
+                                           <option>Parking lot</option>
+                                           <option>Poster</option>
+                                           <option>Projection</option>
+                                           <option>Resturant &amp; Bar</option>
+                                           <option>Resturant &amp; Bar Digital Network</option>
+                                           <option>Retail &amp; Storefront</option>
+                                           <option>Retail Degital Network</option>
+                                           <option>Spectacular</option>
+                                           <option>Square</option>
+                                           <option>Stadium &amp; Arena</option>
+                                           <option>Station Domination</option>
+                                           <option>Subway Car</option>
+                                           <option>Subway Station</option>
+                                           <option>Taxi TV Digital Network</option>
+                                           <option>Taxi Top</option>
+                                           <option>Train Car</option>
+                                           <option>Train Station</option>
+                                           <option>Travel Digital Network</option>
+                                           <option>Trestle</option>
+                                           <option>Tri Vision</option>
+                                           <option>Ultra King</option>
+                                           <option>Urban Panel</option>
+                                           <option>Wallscape</option>
+                                           <option>Wild Posting</option>
+                                           <option>Wrap</option>                     
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Property Location : Latitude</label>
+                                    <div class="col-md-2">
+                                            <input type="Number" class="form-control" placeholder=" " value="34">
+                                    </div>
+                                     <label class="col-md-3 control-label">Property Location : Longitude</label>
+                                    <div class="col-md-2">
+                                            <input type="Number" class="form-control" placeholder=" " value="151">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Have Location Path</label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio" name="1" id="optionsRadios2" value="Yes" checked="checked"
+>Yes</label>
+												<label class="radio-inline">
+												<input type="radio" name="1" id="optionsRadios2" value="No" checked="">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Dimensions : Height </label>
+                                    <div class="col-md-2">
+                                            <input type="Number" class="form-control" placeholder=" " value="150">
+                                    </div>
+                                     <label class="col-md-3 control-label">Dimensions : Width </label>
+                                    <div class="col-md-2">
+                                            <input type="Number" class="form-control" placeholder=" " value="300">
+                                    </div>
+                                </div>
+                                 <div class="form-group">
+                                     <label class="col-md-3 control-label">Illuminated </label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio" name="2" id="optionsRadios3" value="Yes" checked="checked"
+>Yes</label>
+												<label class="radio-inline">
+												<input type="radio" name="2" id="optionsRadios3" value="No" checked="">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Illuminate type </label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio" name="3" id="optionsRadios4" value="Internal" checked="checked"
+>Internal</label>
+												<label class="radio-inline">
+												<input type="radio" name="3" id="optionsRadios4" value="External" checked="">External</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Faces </label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio" name="4" id="optionsRadios5" value="One" checked="">One</label>
+												<label class="radio-inline">
+												<input type="radio" name="4" id="optionsRadios5" value="Two" checked>Two</label>
+                                                <label class="radio-inline">
+												<input type="radio" name="4" id="optionsRadios5" value="Three" checked="checked"
+>Three</label>
+												<label class="radio-inline">
+												<input type="radio" name="4" id="optionsRadios5" value="Four" checked="">Four</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">In Sequence </label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio" name="5" id="optionsRadios6" value="Yes" checked="">Yes</label>
+												<label class="radio-inline">
+												<input type="radio" name="5" id="optionsRadios6" value="No" checked="">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Must Be In Sequence </label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+												<label class="radio-inline">
+												<input type="radio" name="6" id="optionsRadios7" value="Yes" checked="">Yes</label>
+												<label class="radio-inline">
+												<input type="radio" name="6" id="optionsRadios7" value="No" checked="">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">QR Code </label>
+                                    <div class="col-md-4">
+                                        <div class="radio-list">
+											<input type="file" id="exampleInputFile1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Initial Install Fee</label>
+                                    <div class="col-md-4">
+                                            <input type="Number" class="form-control" placeholder=" " value="125">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Production Required Through Vendor</label>
+                                    <div class="col-md-4">
+                                            <input type="Number" class="form-control" placeholder=" " value="250">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">approx. Production Fee</label>
+                                    <div class="col-md-4">
+                                            <input type="Number" class="form-control" placeholder=" " value="500">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                     <label class="col-md-3 control-label">Booking durations</label>
+                                    <div class="col-md-4">
+                                        <div class="checkbox-list">
+                                            <label>
+                                               <input type="checkbox" checked>Daily</label>
+                                            <label>
+                                               <input type="checkbox">Weekly </label>
+                                            <label>
+                                                <input type="checkbox" checked>Monthly</label>
+                                            <label>
+                                               <input type="checkbox">Quarterly</label>
+                                            <label>
+                                                <input type="checkbox" checked>Yearly</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Daily booking fee</label>
+                                    <div class="col-md-4">
+                                        <input type="number" class="form-control" placeholder=" " value="20">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Tags</label>
+                                    <div class="col-md-4">
+                                            <textarea type="text" class="form-control" placeholder="tags">Join My Club</textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label">Private Notes</label>
+                                    <div class="col-md-4">
+                                            <textarea type="text" class="form-control" placeholder="Private Notes">Private Pirzes </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="form-actions bottom">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button type="submit" class="btn green">Submit</button>
+                                        <button type="button" class="btn default">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- END FORM-->
+                    </div>
+                </div>
+				    <!-- END PAGE CONTENT-->
+			</div>   
 		</div>
 		<!-- END CONTENT -->
 		<!-- BEGIN QUICK SIDEBAR -->
@@ -954,7 +1165,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- BEGIN FOOTER -->
 	<div class="page-footer">
 		<div class="page-footer-inner">
-			 2014 &copy; Copyrights by Yaftah. 
+			 2014 &copy; Copyrights by Yaftah.  
 		</div>
 		<div class="scroll-to-top">
 			<i class="icon-arrow-up"></i>
@@ -1001,6 +1212,9 @@ Demo.init(); // init demo features
            EcommerceOrders.init();
         });
     </script>
+    <script type="text/javascript">
+$(".js-example-basic-multiple").select2();
+</script>
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
