@@ -41,6 +41,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <link href="../assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
 <link href="../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
 <link href="../assets/admin/layout2/css/layout.css" rel="stylesheet" type="text/css"/>
+<link href="../assets/admin/pages/css/media-search.css" rel="stylesheet" type="text/css"/>
 <link id="style_color" href="../assets/admin/layout2/css/themes/grey.css" rel="stylesheet" type="text/css"/>
 <link href="../assets/admin/layout2/css/custom.css" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
@@ -77,7 +78,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
 <body class="page-boxed page-header-fixed page-container-bg-solid page-sidebar-closed-hide-logo ">
 <!-- BEGIN HEADER -->
-<div class="page-header navbar navbar-fixed-top">
+<div id="head" class="page-header navbar navbar-fixed-top">
 	<!-- BEGIN HEADER INNER -->
 	<div class="page-header-inner container">
 		<!-- BEGIN LOGO -->
@@ -533,7 +534,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- BEGIN CONTAINER -->
 	<div class="page-container">
 		<!-- BEGIN SIDEBAR -->
-		<div class="page-sidebar-wrapper">
+		<div id="cont" class="page-sidebar-wrapper">
 			<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
 			<!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 			<div class="page-sidebar navbar-collapse collapse">
@@ -670,7 +671,7 @@ License: You must have a valid license purchased only from themeforest(the above
 		</div>
 		<!-- END SIDEBAR -->
 		<!-- BEGIN CONTENT -->
-		<div class="page-content-wrapper">
+		<div id="cont" class="page-content-wrapper">
 			<div class="page-content">
 				<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
 				<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -832,30 +833,37 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div id="map"></div>
                         <div class="form-group">
                             <div class="map-search col-md-4 col-md-offset-7">
-                                        <div class="input-group">
-												<span class="input-group-btn">
-												<button class="btn" type="button"><i class="icon-magnifier"></i></button>
-												</span>
-												<input type="text" class="form-control" placeholder="Search For Location">
-												<span class="input-group-btn">
-												<button class="btn green" type="button"><i class="icon-list"></i></button>
-												</span>
-											</div>
-												
-                                </div>
-                            </div>
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button class="btn" type="button"><i class="icon-magnifier"></i></button>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Search For Location">
+                                    <span class="input-group-btn">
+                                        <button class="btn green" onclick="openNav()" type="button"><i class="icon-list"></i></button>
+                                    </span>
+                                </div>						
                             </div>
                         </div>
+                <div id="mySidenav" class="sidenav pull-right">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search For ..">
+                                    <span class="input-group-btn">
+                                        <button class="btn" type="button"><i class="icon-magnifier"></i></button>
+                                    </span>
+                                </div>	
+                </div>
+            </div>
+        </div>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 						<!-- END MARKERS PORTLET-->
 
 				<!-- END PAGE CONTENT-->
 			</div>
-		</div>
 		<!-- END CONTENT -->
 		<!-- BEGIN QUICK SIDEBAR -->
 		<!--Cooming Soon...-->
-		<!-- END QUICK SIDEBAR -->
-	</div>
+		<!-- END QUICK SIDEBAR --
 	<!-- END CONTAINER -->
 	<!-- BEGIN FOOTER -->
 	<div class="page-footer">
@@ -1055,6 +1063,17 @@ Demo.init(); // init demo features
            EcommerceOrders.init();
         });
     </script>
+       <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "500px";
+    document.getElementById("map").style.opacity="0.2";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("map").style.opacity="1";
+}
+</script>
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
