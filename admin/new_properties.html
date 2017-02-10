@@ -535,7 +535,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						</a>
 					</li>
                     <li>
-						<a href="javascript:;">
+						<a href="media_search.html">
 						<i class="icon-magnifier"></i>
 						<span class="title">Media search</span>
 						<span class="arrow "></span>
@@ -891,41 +891,26 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </div>
                                 <br>
                                 <div class="form-group">
-                                     <label class="col-md-3 control-label">Audience</label>
-                                    <div class="col-md-4">
-                                        <div class="checkbox-list">
-                                            <label>
-                                               <input type="checkbox">Business Men &amp; Women</label>
-                                            <label>
-                                               <input type="checkbox">Corporate Audience </label>
-                                            <label>
-                                                <input type="checkbox">Elite</label>
-                                            <label>
-                                               <input type="checkbox">Families</label>
-                                            <label>
-                                               <input type="checkbox">General </label>
-                                            <label>
-                                                <input type="checkbox">Government Officials</label>
-                                            <label>
-                                               <input type="checkbox">High Income Earners</label>
-                                            <label>
-                                               <input type="checkbox">Low Income Earners </label>
-                                            <label>
-                                                <input type="checkbox">Medium &amp; Upscale Shoppers</label>
-                                            <label>
-                                               <input type="checkbox">Middle Class</label>
-                                            <label>
-                                               <input type="checkbox">Mobile &amp; Urban Clientele </label>
-                                            <label>
-                                                <input type="checkbox">Students</label>
-                                            <label>
-                                               <input type="checkbox">Tourists</label>
-                                            <label>
-                                               <input type="checkbox">Traders</label>
-                                            <label>
-                                                <input type="checkbox">Young Adults &amp; Adults</label>
+                                    <label class="col-md-3 control-label">Audience</label>
+                                        <div class="col-md-8">
+                                            <select class="js-example-basic-multiple form-control" multiple="multiple">
+                                                <option>Business Men &amp; Women</option>
+                                                <option>Corporate Audience</option>
+                                                <option>Elite</option>
+                                                <option>Families</option>
+                                                <option>General</option>
+                                                <option>Government Officials</option>
+                                                <option>High Income Earners</option>
+                                                <option>Low Income Earners</option>
+                                                <option>Medium &amp; Upscale Shoppers</option>
+                                                <option>Middle Class</option>
+                                                <option>Mobile &amp; Urban Clientele</option>
+                                                <option>Students</option>
+                                                <option>Tourists</option>
+                                                <option>Traders</option>
+                                                <option>Young Adults &amp; Adults</option>              
+                                            </select>
                                         </div>
-                                    </div>
                                 </div>
                                 <div class="form-group">
                                      <label class="col-md-3 control-label">Media Type</label>
@@ -1213,6 +1198,9 @@ Demo.init(); // init demo features
            EcommerceOrders.init();
         });
     </script>
+    <script type="text/javascript">
+$(".js-example-basic-multiple").select2();
+</script>
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
