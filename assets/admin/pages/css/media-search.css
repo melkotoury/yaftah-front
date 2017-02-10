@@ -3,8 +3,6 @@
     width: 0;
     position: fixed;
     z-index: 2;
-    top: 31%;
-    left:52%;
     background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
@@ -17,9 +15,13 @@
     background-color: #4285f4;
     color: white;
 }
+.img-center
+{
+    margin-left: 40px;
+}
 .white
 {
-    height: 70%;
+    height: 73%;
     background-color: white;
 }
 .sidenav a {
@@ -50,10 +52,6 @@
      background-color: #4285f4;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 .wrapper {
     position:relative;
     margin:0 auto;
