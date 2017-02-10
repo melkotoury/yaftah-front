@@ -840,14 +840,14 @@ License: You must have a valid license purchased only from themeforest(the above
                 <!-- BEGIN MARKERS PORTLET-->
 					<div id="map"></div>
                         <div class="form-group">
-                            <div visibility="false" id="search" class="map-search col-md-4 col-md-offset-7">
+                            <div visibility="false" id="search" class="map-search col-md-6 col-md-offset-5">
                                 <div class="input-group">
-                                    <span class="input-group-btn">
-                                        <button class="btn" type="button"><i class="icon-magnifier"></i></button>
+                                     <span class="input-group-btn">
+                                        <button class="btn green" onclick="openNav()" type="button"><i class="icon-list"></i></button>
                                     </span>
                                     <input type="text" class="form-control" placeholder="Search For Location">
                                     <span class="input-group-btn">
-                                        <button class="btn green" onclick="openNav()" type="button"><i class="icon-list"></i></button>
+                                        <button class="btn" type="button"><i class="icon-magnifier"></i></button>
                                     </span>
                                 </div>						
                             </div>
@@ -1008,6 +1008,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                     </div>
                 </div>
+                    <div class="row white"></div>
                     </div>
             </div>
         </div>
@@ -1221,14 +1222,16 @@ License: You must have a valid license purchased only from themeforest(the above
     </script>
        <script>
             function openNav() {
-                document.getElementById("mySidenav").style.width = "500px";
+                document.getElementById("mySidenav").style.height = "77%";
+                 document.getElementById("mySidenav").style.width = "500px";
                 document.getElementById("map").style.pointerEvents = "none";  
                 document.getElementById("map").style.opacity = "0.2"; 
                 document.getElementById("search").style.visibility='hidden';
             }
 
             function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("mySidenav").style.height = "0";
+                 document.getElementById("mySidenav").style.width = "0";
                 document.getElementById("map").style.pointerEvents = "all";
                 document.getElementById("map").style.opacity = "1";
                  document.getElementById("search").style.visibility='visible';

@@ -1,5 +1,5 @@
 .sidenav {
-    height: 77%;
+    height: 0;
     width: 0;
     position: fixed;
     z-index: 2;
@@ -16,13 +16,18 @@
     background-color: #4285f4;
     color: white;
 }
+.white
+{
+    height: 100%;
+    background-color: white;
+}
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
     color: white;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -37,6 +42,7 @@
     font-size: 36px;
     margin-left: 50px;
     color: white;
+    height: 20px;
 }
 .sidenav .closebtn:hover
 {
