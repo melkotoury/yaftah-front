@@ -838,23 +838,6 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!-- END PAGE HEADER-->
 				<!-- BEGIN PAGE CONTENT-->
                 <!-- BEGIN MARKERS PORTLET-->
-					<div id="map"></div>
-                        <div class="form-group">
-                            <div visibility="false" id="search" class="map-search col-md-6 col-md-offset-5">
-                                <div class="input-group">
-                                     <span class="input-group-btn">
-                                        <button class="btn green" onclick="openNav()" type="button"><i class="icon-list"></i></button>
-                                    </span>
-                                    <input type="text" class="form-control" placeholder="Search For Location">
-                                    <span class="input-group-btn">
-                                        <button class="btn" type="button"><i class="icon-magnifier"></i></button>
-                                    </span>
-                                </div>						
-                            </div>
-                        </div>
-                <div id="mySidenav" class="sidenav pull-right">
-                    <div class="blue">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <div class="scroller scroller-left"><i class="glyphicon glyphicon-chevron-left"></i></div>
                     <div class="scroller scroller-right"><i class="glyphicon glyphicon-chevron-right"></i></div>
                       <div class="wrapper">
@@ -1006,10 +989,52 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </span>
                             </div>
                         </div>
+                    </div><br><hr>
+                <div class="portlet blue-hoki box">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="fa fa-cogs"></i>Customer Information
+                        </div>
+                        <div class="actions">
+                            <a href="Edit.html" class="btn btn-default btn-sm">
+                                <i class="fa fa-pencil"></i> Edit </a>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="row static-info">
+                            <div class="col-md-5 name">
+                                Customer Name:
+                            </div>
+                            <div class="col-md-7 value">
+                                Jhon Doe
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-5 name">
+                                Email:
+                            </div>
+                            <div class="col-md-7 value">
+                                jhon@doe.com
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-5 name">
+                                State:
+                            </div>
+                            <div class="col-md-7 value">
+                                New York
+                            </div>
+                        </div>
+                        <div class="row static-info">
+                            <div class="col-md-5 name">
+                                Phone Number:
+                            </div>
+                            <div class="col-md-7 value">
+                                12234389
+                            </div>
+                        </div>
                     </div>
                 </div>
-                    <div class="row white"></div>
-                    </div>
             </div>
         </div>
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
@@ -1221,22 +1246,7 @@ License: You must have a valid license purchased only from themeforest(the above
         });
     </script>
        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.height = "77%";
-                 document.getElementById("mySidenav").style.width = "500px";
-                document.getElementById("map").style.pointerEvents = "none";  
-                document.getElementById("map").style.opacity = "0.2"; 
-                document.getElementById("search").style.visibility='hidden';
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.height = "0";
-                 document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("map").style.pointerEvents = "all";
-                document.getElementById("map").style.opacity = "1";
-                 document.getElementById("search").style.visibility='visible';
-            }
-                       var hidWidth;
+           var hidWidth;
             var scrollBarWidths = 40;
 
             var widthOfList = function(){
@@ -1282,22 +1292,22 @@ License: You must have a valid license purchased only from themeforest(the above
             $('.scroller-right').click(function() {
 
               $('.scroller-left').fadeIn('slow');
+              $('.scroller-right').fadeOut('slow');
 
-              $('.list').animate({left:"-="+"200px"},'slow',function(){
-                             reAdjust();
+              $('.list').animate({left:"+="+widthOfHidden()+"px"},'slow',function(){
+
               });
             });
 
             $('.scroller-left').click(function() {
 
                 $('.scroller-right').fadeIn('slow');
-                
-                $('.list').animate({left:"+="+"200px"},'slow',function(){
-                               reAdjust();
+                $('.scroller-left').fadeOut('slow');
+
+                $('.list').animate({left:"-="+getLeftPosi()+"px"},'slow',function(){
 
                 });
-            });   
-
+            });    
         </script>
     
 <!-- END JAVASCRIPTS -->
