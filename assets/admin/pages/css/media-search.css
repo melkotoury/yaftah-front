@@ -9,6 +9,12 @@
     padding-top: 60px;
     background-color: #4285f4;
 }
+#map
+{
+    display: block;
+    margin-left: -20px;
+    margin-left: 5px;
+}
 .blue
 {
     padding-bottom: 20px;
