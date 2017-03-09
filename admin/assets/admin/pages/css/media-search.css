@@ -6,7 +6,7 @@
     background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 #map
 {
@@ -56,59 +56,7 @@
 {
 	color: black;
 }
-
-.wrapper {
-    position:relative;
-    margin:0 auto;
-    overflow:hidden;
-	padding:5px;
-  	height:50px;
-}
-
-.list {
-    position:absolute;
-    left:0px;
-    top:0px;
-  	min-width:3000px;
-  	margin-left:12px;
-    margin-top:0px;
-}
-
-.list li{
-	display:table-cell;
-    position:relative;
-    text-align:center;
-    cursor:grab;
-    cursor:-webkit-grab;
-    color:#efefef;
-    vertical-align:middle;
-}
-
-.scroller {
-  cursor:pointer;
-  padding:7px;
-  padding-top:11px;
-  background-color:#4285f4;
-}
-
-.scroller-right{
-    cursor:pointer;
-  padding:7px;
-  padding-top:11px;
-  background-color:#4285f4;
-    float: right;
-    color:white;
-}
-
-.scroller-left {
-    cursor:pointer;
-  padding:7px;
-  padding-top:11px;
-  background-color:#4285f4;
-    float:left;
-    color: white;
-}
-.tab-content input
+.list-group 
 {
-    color: #4285f4;
+	width: 100%;
 }
