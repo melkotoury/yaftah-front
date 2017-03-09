@@ -7,7 +7,6 @@
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    background-color: #4285f4;
 }
 #map
 {
@@ -50,12 +49,12 @@
     left: -50px;
     font-size: 36px;
     margin-left: 50px;
-    color: white;
+    color: dimgray;
     height: 20px;
 }
 .sidenav .closebtn:hover
 {
-     background-color: #4285f4;
+	color: black;
 }
 
 .wrapper {
