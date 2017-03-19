@@ -798,25 +798,9 @@ License: You must have a valid license purchased only from themeforest(the above
 					</ul>
 					<div class="page-toolbar">
 						<div class="btn-group pull-right">
-							<button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">
-							Actions <i class="fa fa-angle-down"></i>
-							</button>
-							<ul class="dropdown-menu pull-right" role="menu">
-								<li>
-									<a href="#">Action</a>
-								</li>
-								<li>
-									<a href="#">Another action</a>
-								</li>
-								<li>
-									<a href="#">Something else here</a>
-								</li>
-								<li class="divider">
-								</li>
-								<li>
-									<a href="#">Separated link</a>
-								</li>
-							</ul>
+							<a type="button" class="btn btn-fit-height grey-salt" href="new_user.html">
+							New <i class="icon-doc"></i>
+                            </a>
 						</div>
 					</div>
 				</div>
@@ -824,76 +808,140 @@ License: You must have a valid license purchased only from themeforest(the above
 							<div class="portlet-title">
 								<div class="caption font-green-haze">
 									<i class="icon-settings font-green-haze"></i>
-									<span class="caption-subject bold uppercase"> Title</span>
+									<span class="caption-subject bold uppercase"> Users</span>
 								</div>
 							</div>
-							<div class="portlet-body form">
-								<form role="form" class="form-horizontal">
-									<div class="form-body">
-										<div class="form-group form-md-line-input">
-											<label class="col-md-2 control-label" for="form_control_1">Dropdown Input</label>
-											<div class="col-md-7">
-												<select class="form-control" id="form_control_1">
-													<option>Media Manager</option>
-													<option>Media Editor</option>
-													<option>Production Manager</option>
-													<option>Media owner</option>
-												</select>
-												<div class="form-control-focus">
-												</div>
-											</div>
-										</div>
-										<div class="form-group form-md-line-input">
-											<label class="col-md-2 control-label" for="form_control_1">Username</label>
-											<div class="col-md-7">
-												<div class="input-icon">
-													<input type="email" class="form-control" placeholder="Username">
-													<div class="form-control-focus">
-													</div>
-												<i class="fa fa-user"></i>
-												</div>
-											</div>
-										</div>
-										<div class="form-group form-md-line-input">
-											<label class="col-md-2 control-label" for="form_control_1">Password</label>
-											<div class="col-md-7">
-												<div class="input-icon">
-													<input type="password" class="form-control" placeholder="password">
-													<div class="form-control-focus">
-													</div>
-													<i class="fa fa-lock"></i>
-												</div>
-											</div>
-												<span class="help-block">Some help goes here...</span>
-											</div>
-										</div>
-										<div class="form-group form-md-line-input">
-											<label class="col-md-2 control-label" for="form_control_1">First name</label>
-											<div class="col-md-7">
-												<input type="text" class="form-control" id="form_control_1" placeholder="First name">
-												<div class="form-control-focus">
-												</div>
-											</div>
-										</div>
-										<div class="form-group form-md-line-input">
-											<label class="col-md-2 control-label" for="form_control_1">Last name</label>
-											<div class="col-md-7">
-												<input type="text" class="form-control" id="form_control_1" placeholder="Last name">
-												<div class="form-control-focus">
-												</div>
-											</div>
-										</div>
-								</form>
-								<div class="form-actions">
-										<div class="row">
-											<div class="col-md-offset-2 col-md-10">
-												<button type="button" class="btn default">Cancel</button>
-												<button type="button" class="btn blue">Submit</button>
-											</div>
-										</div>
-									</div>
+							<div class="portlet-body">
+								<div class="table-responsive">
+									<table class="table">
+									<thead>
+									<tr>
+										<th>
+											 #
+										</th>
+										<th>
+											 Role type 
+										</th>
+										<th>
+											 Username 
+										</th>
+										<th>
+											 First name 
+										</th>
+										<th>
+											 Last name
+										</th>
+										<th>
+											 Actions
+										</th>
+										<th>
+											 Status
+										</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr>
+										<td>
+											 1
+										</td>
+										<td>
+											 Media Manager 
+										</td>
+										<td>
+											 JohnDoe 
+										</td>
+										<td>
+											 John
+										</td>
+										<td>
+											 Doe
+										</td>
+										<td>
+											 <a type="button" class="btn btn-fit-height grey-salt" href="edit_user.html">
+                                                Edit 
+                                            </a>
+                                            <a type="button"  class="btn btn-danger">
+                                            Delete
+                                            </a>
+                                             <a type="button" class="btn btn-info">
+                                            View
+                                            </a>
+                                        
+										</td>
+										<td>
+											 <i class="icon-like"></i> / <i class="icon-dislike"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											 1
+										</td>
+										<td>
+											 Media Manager 
+										</td>
+										<td>
+											 JohnDoe 
+										</td>
+										<td>
+											 John
+										</td>
+										<td>
+											 Doe
+										</td>
+										<td>
+											 <a type="button" class="btn btn-fit-height grey-salt" href="edit_user.html">
+                                                Edit 
+                                            </a>
+                                            <a type="button"  class="btn btn-danger">
+                                            Delete
+                                            </a>
+                                             <a type="button" class="btn btn-info">
+                                            View
+                                            </a>
+                                        
+										</td>
+										<td>
+											 <i class="icon-like"></i> / <i class="icon-dislike"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											 1
+										</td>
+										<td>
+											 Media Manager 
+										</td>
+										<td>
+											 JohnDoe 
+										</td>
+										<td>
+											 John
+										</td>
+										<td>
+											 Doe
+										</td>
+										<td>
+											 <a type="button" class="btn btn-fit-height grey-salt" href="edit_user.html">
+                                                Edit 
+                                            </a>
+                                            <a type="button"  class="btn btn-danger">
+                                            Delete
+                                            </a>
+                                             <a type="button" class="btn btn-info">
+                                            View
+                                            </a>
+                                        
+										</td>
+										<td>
+											 <i class="icon-like"></i> / <i class="icon-dislike"></i>
+										</td>
+									</tr>
+									</tbody>
+									</table>
+								</div>
 							</div>
-						</div>
+						
+					</div>
 				<!-- END PAGE HEADER-->
 				<!-- BEGIN PAGE CONTENT-->
 				<!-- END PAGE CONTENT-->
