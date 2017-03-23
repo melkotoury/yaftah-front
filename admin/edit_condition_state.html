@@ -18,7 +18,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>Yafta | Dashboard</title>
+<title>Yafta | Condition Status</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -68,7 +68,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="row">
                 <div class="col-md-8">	
                     <a href="index.html">
-                        <img class="img-responisve logo" src="../images/logo.png" alt="logo" class="logo-default"/>
+                       <img class="img-responisve logo" src="../images/logo.png" alt="logo" class="logo-default"/>
                     </a>
                 </div>
                 <div class="col-md-4">
@@ -534,12 +534,12 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
 				<!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
 				<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
-				<ul class="page-sidebar-menu page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+		<ul class="page-sidebar-menu page-sidebar-menu-hover-submenu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
 					<li>
 						<a href="index.html">
 						<i class="icon-home"></i>
 						<span class="title">Dashboard</span>
-						<span class="arrow"></span>
+						<span ></span>
 						</a>
 					</li>
                     <li>
@@ -598,11 +598,11 @@ License: You must have a valid license purchased only from themeforest(the above
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li  class="start active ">
 						<a href="javascript:;">
 						<i class="icon-user"></i>
 						<span class="title">Media Reporter</span>
-						<span class="arrow "></span>
+						<span class="selected "></span>
 						</a>
 						<ul class="sub-menu">
 							<li>
@@ -625,11 +625,11 @@ License: You must have a valid license purchased only from themeforest(the above
 						</a>
 						
 					</li>
-                    <li  class="start active ">
+                    <li>
 						<a href="javascript:;">
 						<i class="icon-docs"></i>
 						<span class="title">Reports</span>
-						<span class="selected "></span>
+						<span class="arrow "></span>
 						</a>
 						<ul class="sub-menu">
 							<li>
@@ -786,7 +786,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!-- END STYLE CUSTOMIZER -->
 				<!-- BEGIN PAGE HEADER-->
 				<h3 class="page-title">
-				Summary Report <small>orders listing</small>
+				Condition Status <small>orders listing</small>
 				</h3>
 				<div class="page-bar">
 						<ul class="page-breadcrumb">
@@ -820,6 +820,105 @@ License: You must have a valid license purchased only from themeforest(the above
 						</div>
 					</div>
 				</div>
+				<div class="portlet light">
+							<div class="portlet-title">
+								<div class="caption font-green-haze">
+									<i class="icon-settings font-green-haze"></i>
+									<span class="caption-subject bold uppercase"> Title</span>
+								</div>
+							</div>
+							<div class="portlet-body form">
+								<form role="form" class="form-horizontal">
+									<div class="form-body">
+										<div class="form-group form-md-line-input">
+											<label class="col-md-2 control-label" for="form_control_1">Title</label>
+											<div class="col-md-7">
+												<input type="text" class="form-control" id="form_control_1" placeholder="Title" value="ConditionState">
+												<div class="form-control-focus">
+												</div>
+											</div>
+										</div>
+										<div class="form-group form-md-line-input">
+											<label class="col-md-2 control-label" for="form_control_1">Report Date</label>
+											<div class="col-md-7">
+												<input type="date" class="form-control" id="form_control_1">
+												<div class="form-control-focus">
+												</div>
+											</div>
+										</div>
+										<div class="form-group form-md-line-input">
+											<label class="col-md-2 control-label" for="form_control_1">Property ID</label>
+											<div class="col-md-7">
+												<input type="number	" class="form-control" id="form_control_1" placeholder="Property ID" value="1122335544">
+												<div class="form-control-focus">
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label col-md-2">Property Image</label>
+											<div class="col-md-9">
+												<div class="fileinput fileinput-new" data-provides="fileinput">
+													<div class="fileinput-new thumbnail" style="width: 200px; height: 150px;">
+														<img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image" alt="">
+													</div>
+													<div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px; line-height: 10px;">
+													</div>
+													<div>
+														<span class="btn default btn-file">
+														<input type="hidden"><input type="file" name="...">
+														</span>
+														<a href="javascript:;" class="btn red fileinput-exists" data-dismiss="fileinput">
+														Remove </a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-group form-md-line-input">
+											<label class="col-md-2 control-label" for="form_control_1">Condition status</label>
+											<div class="col-md-7">
+												<select class="form-control" id="form_control_1">
+													<option selected>Good</option>
+													<option>Need Maintenance</option>
+													<option>Damaged</option>
+												</select>
+												<div class="form-control-focus">
+												</div>
+											</div>
+										</div>
+										<div class="form-group form-md-line-input">
+											<label class="col-md-2 control-label" for="form_control_1">priority</label>
+											<div class="col-md-7">
+												<select class="form-control" id="form_control_1">
+													<option>High</option>
+													<option selected>Mideum</option>
+													<option>Low</option>
+												</select>
+												<div class="form-control-focus">
+												</div>
+											</div>
+										</div>
+										<div class="form-group form-md-line-input">
+											<label class="col-md-2 control-label" for="form_control_1">required action</label>
+											<div class="col-md-7">
+												<div class="input-icon">
+													<textarea id="maxlength_textarea" class="form-control" rows="4	" placeholder="the required action."></textarea>
+													<div class="form-control-focus">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="form-actions">
+										<div class="row">
+											<div class="col-md-offset-2 col-md-10">
+												<button type="button" class="btn default">Cancel</button>
+												<button type="button" class="btn blue">Submit</button>
+											</div>
+										</div>
+									</div>
+						</div>
+					</div>
 				<!-- END PAGE HEADER-->
 				<!-- BEGIN PAGE CONTENT-->
 				<!-- END PAGE CONTENT-->
@@ -834,7 +933,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- BEGIN FOOTER -->
 	<div class="page-footer">
 		<div class="page-footer-inner">
-			 2017 &copy; Copyrights by Yaftah. 
+			 2017 &copy; Copyrights by Yaftah.  
 		</div>
 		<div class="scroll-to-top">
 			<i class="icon-arrow-up"></i>
