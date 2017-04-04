@@ -17,3 +17,46 @@ Rounded Portlets
 	border-radius: 0px 0px 4px 4px !important;
 }
 */
+.theme-panel > .theme-options > .theme-option > input.form-control
+{
+	display: inline;
+    width: 220px;;
+}
+.menu-toggler{
+	visibility: hidden;
+}
+.total-num
+{
+	margin-left: 20% !important;
+}
+@media (max-width: 991px) and (min-width: 768px){
+	.menu-toggler
+	{
+		visibility: visible;
+	}
+	.page-header-inner
+	{
+		background: #F2CE00;
+	}
+}
+@media (max-width: 991px) {
+	.menu-toggler
+	{
+		visibility: visible;
+	}
+	.page-header-inner
+	{
+		background: #F2CE00;
+	}
+}
+@media (max-width:768px){
+		.page-logo
+	{
+		text-align: center;
+		margin-left: 35%;
+	}
+}
+.btn.btn-fit-height.grey-salt.dropdown-toggle , .btn-group.pull-right .btn.btn-fit-height.grey-salt
+{
+	background: #136900;
+}

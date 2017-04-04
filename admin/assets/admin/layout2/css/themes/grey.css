@@ -14,7 +14,7 @@ Page Header
   /* Header seaech box */
 }
 .page-header.navbar .page-logo {
-  background: #14B9D6;
+  background: #F2CE00;
 }
 .page-header.navbar .page-top {
   box-shadow: 0px 1px 10px 0px rgba(50, 50, 50, 0.2);
@@ -207,7 +207,7 @@ Page Header
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a,
 .page-sidebar .page-sidebar-menu > li:hover > a,
 .page-sidebar .page-sidebar-menu > li.open > a {
-  background: #465460;
+  background: #F2CE00;
   color: white;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > i,

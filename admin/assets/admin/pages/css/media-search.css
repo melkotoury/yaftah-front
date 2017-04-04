@@ -46,11 +46,16 @@
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    left: -50px;
+    left: 0px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 0px;
     color: dimgray;
-    height: 20px;
+    height: 0px;
+}
+.sidenav .filter
+{
+	top: -35px !important;
+	right: 10px !important;
 }
 .sidenav .closebtn:hover
 {
@@ -62,4 +67,8 @@
 		
 		
 	}
+}
+.no-margin
+{
+	margin-top: -35px;
 }
