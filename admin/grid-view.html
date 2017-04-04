@@ -602,9 +602,9 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!-- /.modal -->
 				<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
 				<!-- BEGIN STYLE CUSTOMIZER -->
-				<div class="theme-panel hide">
-					<div class="toggler tooltips" data-container="body" data-placement="left" data-html="true" data-original-title="Click to open advance theme customizer panel">
-						<i class="icon-settings"></i>
+				<div class="theme-panel">
+					<div class="toggler tooltips" data-container="body" data-placement="left" data-html="true" data-original-title="Click to choose filter and searching option">
+						<i class="icon-magnifier"></i>
 					</div>
 					<div class="toggler-close">
 						<i class="icon-close"></i>
@@ -612,91 +612,68 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="theme-options">
 						<div class="theme-option theme-colors clearfix">
 							<span>
-							THEME COLOR </span>
-							<ul>
-								<li class="color-default current tooltips" data-style="default" data-container="body" data-original-title="Default">
-								</li>
-								<li class="color-grey tooltips" data-style="grey" data-container="body" data-original-title="Grey">
-								</li>
-								<li class="color-blue tooltips" data-style="blue" data-container="body" data-original-title="Blue">
-								</li>
-								<li class="color-dark tooltips" data-style="dark" data-container="body" data-original-title="Dark">
-								</li>
-								<li class="color-light tooltips" data-style="light" data-container="body" data-original-title="Light">
-								</li>
-							</ul>
+							Filter by : </span>
 						</div>
 						<div class="theme-option">
-							<span>
-							Theme Style </span>
-							<select class="layout-style-option form-control input-small">
-								<option value="square" selected="selected">Square corners</option>
-								<option value="rounded">Rounded corners</option>
-							</select>
+								<span>
+									Country </span>
+							<input type="text" class="form-control" placeholder="Search For Country">
 						</div>
 						<div class="theme-option">
-							<span>
-							Layout </span>
-							<select class="layout-option form-control input-small">
-								<option value="fluid" selected="selected">Fluid</option>
-								<option value="boxed">Boxed</option>
-							</select>
+								<span>
+									City </span>
+							<input type="text" class="form-control" placeholder="Search For City">
 						</div>
 						<div class="theme-option">
-							<span>
-							Header </span>
-							<select class="page-header-option form-control input-small">
-								<option value="fixed" selected="selected">Fixed</option>
-								<option value="default">Default</option>
-							</select>
+								<h5>
+									AVAILABILITY ON DATE </h5><br>
+							
+							<input type="text" class="form-control input-small" placeholder="From">
+							<input type="text" class="form-control input-small pull-right" placeholder="To">
 						</div>
 						<div class="theme-option">
-							<span>
-							Top Dropdown</span>
-							<select class="page-header-top-dropdown-style-option form-control input-small">
-								<option value="light" selected="selected">Light</option>
-								<option value="dark">Dark</option>
-							</select>
+								<span>
+									Audience Segment </span>
+							<input type="text" class="form-control" placeholder="Search For Audience Segment">
 						</div>
 						<div class="theme-option">
-							<span>
-							Sidebar Mode</span>
-							<select class="sidebar-option form-control input-small">
-								<option value="fixed">Fixed</option>
-								<option value="default" selected="selected">Default</option>
-							</select>
+								<span>
+									Area Class </span>
+							<input type="text" class="form-control" placeholder="Search For Area Class">
 						</div>
 						<div class="theme-option">
-							<span>
-							Sidebar Style</span>
-							<select class="sidebar-style-option form-control input-small">
-								<option value="default" selected="selected">Default</option>
-								<option value="compact">Compact</option>
-							</select>
+								<span>
+									Media Type </span>
+							<input type="text" class="form-control" placeholder="Search For Media Type">
 						</div>
 						<div class="theme-option">
-							<span>
-							Sidebar Menu </span>
-							<select class="sidebar-menu-option form-control input-small">
-								<option value="accordion" selected="selected">Accordion</option>
-								<option value="hover">Hover</option>
-							</select>
+								<span>
+									Media Owner </span>
+							<input type="text" class="form-control" placeholder="Search For Media Owner">
 						</div>
 						<div class="theme-option">
-							<span>
-							Sidebar Position </span>
-							<select class="sidebar-pos-option form-control input-small">
-								<option value="left" selected="selected">Left</option>
-								<option value="right">Right</option>
-							</select>
+								<span>
+									Media Category </span>
+							<input type="text" class="form-control" placeholder="Search For Media Category">
 						</div>
 						<div class="theme-option">
-							<span>
-							Footer </span>
-							<select class="page-footer-option form-control input-small">
-								<option value="fixed">Fixed</option>
-								<option value="default" selected="selected">Default</option>
-							</select>
+								<span>
+									Media Price </span>
+							<div id="slider-range-max" class="slider bg-purple ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+								<div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-max" style="width: 100%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div>
+							<div class="slider-value">
+								Maximum Value: <span id="slider-range-max-amount">1</span>
+							</div>
+						</div>
+						<div class="theme-option">
+								<span>
+									Media Specs </span>
+							<input type="text" class="form-control" placeholder="Search For Media Specs">
+						</div>
+						<div class="theme-option">
+								<span>
+									Number of viewer </span>
+							<input type="number" class="form-control" placeholder="0">
 						</div>
 					</div>
 				</div>
@@ -720,7 +697,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="page-toolbar">
 						<div class="btn-group pull-right">
 							<button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">
-							Actions <i class="fa fa-angle-down"></i>
+							Change View <i class="fa fa-angle-down"></i>
 							</button>
 							<ul class="dropdown-menu pull-right" role="menu">
 								<li>
@@ -736,156 +713,6 @@ License: You must have a valid license purchased only from themeforest(the above
 				<!-- END PAGE HEADER-->
 				<!-- BEGIN PAGE CONTENT-->
                 <!-- BEGIN MARKERS PORTLET-->
-                      <div class="wrapper">
-                        <ul class="nav nav-pills list" id="myTab">
-                          <li><a data-toggle="pill" href="#country">Country</a></li>
-                          <li class="active"><a data-toggle="pill" href="#city">City</a></li>
-                            <li><a data-toggle="pill" href="#date">Availability on date</a></li>
-                          <li><a data-toggle="pill" href="#selected-area">Selected Area</a></li>
-                          <li><a data-toggle="pill" href="#nearby">Nearby</a></li>
-                          <li><a data-toggle="pill" href="#area-class">Area Class</a></li>
-                          <li><a data-toggle="pill" href="#audience-segment">Audience Segment</a></li>
-                          <li><a data-toggle="pill" href="#media-type">Media Type</a></li>
-                          <li><a data-toggle="pill" href="#media-owner">Media Owner</a></li>
-                          <li><a data-toggle="pill" href="#media-category">Media Category</a></li>
-                          <li><a data-toggle="pill" href="#media-price">Media Price</a></li>
-                          <li><a data-toggle="pill" href="#media-specs">Media Specs</a></li>
-                          <li><a data-toggle="pill" href="#num-of-viewer">Number Of Viewer</a></li>
-                      </ul>
-                      </div>
-                
-                    <div class="tab-content">
-                        <div id="country" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Country">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="country" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Country">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="date" class="tab-pane fade">
-                            <div class="input-group">
-                                <div class="form-group">
-                                    <label class="col-md-3 control-label">From</label>
-                                    <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="From">
-                                    </div>
-                                    <label class="col-md-3 control-label">To</label>
-                                    <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="To">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="city" class="tab-pane fade in active">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For City">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="selected-area" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Selected Area">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="nearby" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Nearby">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="area-class" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Area Class">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="audience-segment" class="tab-pane fade">
-                           <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Audience Segment">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="media-type" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Media Type">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="media-owner" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Media Owner">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div><div id="media-category" class="tab-pane">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Media Category">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="media-price" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Media Price">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="media-specs" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Media Specs">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                        <div id="num-of-viewer" class="tab-pane fade">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search For Num Of Viewer">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="button"><i class="icon-magnifier"></i>  
-                                    </button>
-                                </span>
-                            </div>
-                        </div>
-                    </div><br><hr>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="portlet blue-hoki box">
