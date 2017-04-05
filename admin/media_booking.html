@@ -13,39 +13,36 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!-- BEGIN HEAD -->
-<head>
-<meta charset="utf-8"/>
-<title>Yafta | Condition Status</title>
+<html lang="en"><!--<![endif]--><!-- BEGIN HEAD --><head>
+<meta charset="utf-8">
+<title>Yafta | Dashboard</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<meta content="" name="description"/>
-<meta content="" name="author"/>
+<meta content="" name="description">
+<meta content="" name="author">
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css">
 <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
 <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
-<link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css">
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL STYLES -->
-<link rel="stylesheet" type="text/css" href="assets/global/plugins/select2/select2.css"/>
-<link rel="stylesheet" type="text/css" href="assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css"/>
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/select2/select2.css">
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
 <!-- END PAGE LEVEL STYLES -->
 <!-- BEGIN THEME STYLES -->
-<link href="assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
-<link href="assets/admin/layout2/css/layout.css" rel="stylesheet" type="text/css"/>
-<link id="style_color" href="assets/admin/layout2/css/themes/grey.css" rel="stylesheet" type="text/css"/>
-<link href="assets/admin/layout2/css/custom.css" rel="stylesheet" type="text/css"/>
-       <link href="logo.css" rel="stylesheet" type="text/css"/>
+<link href="assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css">
+<link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css">
+<link href="assets/admin/layout2/css/layout.css" rel="stylesheet" type="text/css">
+<link id="style_color" href="assets/admin/layout2/css/themes/grey.css" rel="stylesheet" type="text/css">
+<link href="assets/admin/layout2/css/custom.css" rel="stylesheet" type="text/css">
+       <link href="logo.css" rel="stylesheet" type="text/css">
 <!-- END THEME STYLES -->
-<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -68,7 +65,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="row">
                 <div class="col-md-8">	
                     <a href="index.html">
-                       <img class="img-responisve logo" src="../images/logo.png" alt="logo" class="logo-default"/>
+                        <img class="img-responisve logo" src="../images/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="col-md-4">
@@ -86,6 +83,69 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!-- END RESPONSIVE MENU TOGGLER -->
 		<!-- BEGIN PAGE ACTIONS -->
 		<!-- DOC: Remove "hide" class to enable the page header actions -->
+		<div class="page-actions hide">
+			<div class="btn-group">
+				
+				<ul class="dropdown-menu pull-left" role="menu">
+					<li>
+						<a href="javascript:;">
+						<i class="icon-user"></i> New User </a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-present"></i> New Event <span class="badge badge-success">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-basket"></i> New order </a>
+					</li>
+					<li class="divider">
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-flag"></i> Pending Orders <span class="badge badge-danger">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-users"></i> Pending Users <span class="badge badge-warning">12</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-circle green-haze dropdown-toggle hide" data-toggle="dropdown">
+				<i class="icon-bell"></i>&nbsp;<span class="hidden-sm hidden-xs">Post&nbsp;</span>&nbsp;<i class="fa fa-angle-down"></i>
+				</button>
+				<ul class="dropdown-menu pull-left" role="menu">
+					<li>
+						<a href="javascript:;">
+						<i class="icon-docs"></i> New Post </a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-tag"></i> New Comment </a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-share"></i> Share </a>
+					</li>
+					<li class="divider">
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-flag"></i> Comments <span class="badge badge-success">4</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<i class="icon-users"></i> Feedbacks <span class="badge badge-danger">2</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<!-- END PAGE ACTIONS -->
 		<div class="page-top">
 			<!-- BEGIN HEADER SEARCH BOX -->
@@ -372,7 +432,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<a href="index.html">
 						<i class="icon-home"></i>
 						<span class="title">Dashboard</span>
-						<span ></span>
+						<span class="arrow"></span>
 						</a>
 					</li>
                     <li>
@@ -402,7 +462,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li class=" ">
 						<a href="javascript:;">
 						<i class="icon-user"></i>
 						<span class="title">Media Manager</span>
@@ -426,11 +486,11 @@ License: You must have a valid license purchased only from themeforest(the above
 							</li>
 						</ul>
 					</li>
-					<li  class="start active ">
+					<li>
 						<a href="javascript:;">
 						<i class="icon-user"></i>
 						<span class="title">Media Reporter</span>
-						<span class="selected "></span>
+						<span class="arrow "></span>
 						</a>
 						<ul class="sub-menu">
 							<li>
@@ -445,11 +505,11 @@ License: You must have a valid license purchased only from themeforest(the above
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li class="start active">
 						<a href="media_booking.html">
 						<i class="icon-call-end"></i>
 						<span class="title">Media Booking</span>
-						<span class="arrow "></span>
+						<span class="selected "></span>
 						</a>
 						
 					</li>
@@ -489,7 +549,7 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!-- END SIDEBAR -->
 		<!-- BEGIN CONTENT -->
 		<div class="page-content-wrapper">
-			<div class="page-content">
+			<div class="page-content" style="min-height:747px">
 				<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
 				<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					<div class="modal-dialog">
@@ -512,34 +572,48 @@ License: You must have a valid license purchased only from themeforest(the above
 				</div>
 				<!-- /.modal -->
 				<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+				<!-- BEGIN STYLE CUSTOMIZER -->
+				
+				<!-- END STYLE CUSTOMIZER -->
 				<!-- BEGIN PAGE HEADER-->
 				<h3 class="page-title">
-				Condition Status <small>orders listing</small>
+				Media Booking <small>orders listing</small>
 				</h3>
 				<div class="page-bar">
-						<ul class="page-breadcrumb">
+					<ul class="page-breadcrumb">
 						<li>
 							<i class="fa fa-home"></i>
 							<a href="index.html">Home</a>
 							<i class="fa fa-angle-right"></i>
 						</li>
+						<li>
+							<a href="#">Media Booking</a>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</ul>
+					<ul class="page-breadcrumb total-num">
+						<li>
+							<a href="#">3 Published out of 10</a>
+						</li>
 					</ul>
 					<div class="page-toolbar">
 						<div class="btn-group pull-right">
-							<a type="button" class="btn btn-fit-height grey-salt" href="new_condition_state.html">
+							<a type="button" class="btn btn-fit-height grey-salt" href="new_properties.html">
 							New <i class="icon-doc"></i>
                             </a>
 						</div>
 					</div>
 				</div>
+				<!-- END PAGE HEADER-->
+				<!-- BEGIN PAGE CONTENT-->
 				<div class="portlet light">
-							<div class="portlet-title">
+					<div class="portlet-title">
 								<div class="caption font-green-haze">
 									<i class="icon-settings font-green-haze"></i>
-									<span class="caption-subject bold uppercase"> Condition Status</span>
+									<span class="caption-subject bold uppercase"> Media Booking</span>
 								</div>
 							</div>
-							<div class="portlet-body">
+                <div class="portlet-body">
 								<div class="table-responsive">
 									<table class="table">
 									<thead>
@@ -548,22 +622,28 @@ License: You must have a valid license purchased only from themeforest(the above
 											 #
 										</th>
 										<th>
-											 Title
+											Unit ID
 										</th>
 										<th>
-											 Report Date
+											Title
 										</th>
 										<th>
-											 Property ID
+											Description 
 										</th>
 										<th>
-											 Priority
+											 Area
+										</th>
+										<th>
+											 City
+										</th>
+										<th>
+											 Country
 										</th>
 										<th>
 											 Actions
 										</th>
 										<th>
-											 Status
+											 Availability
 										</th>
 									</tr>
 									</thead>
@@ -573,55 +653,26 @@ License: You must have a valid license purchased only from themeforest(the above
 											 1
 										</td>
 										<td>
-											 ConditionState 
-										</td>
-										<td>
-											 1/1/2015
-										</td>
-										<td>
 											 112333444555
 										</td>
 										<td>
-											 High
+											 John Doe
 										</td>
 										<td>
-											 <a type="button" class="btn btn-fit-height grey-salt" href="edit_condition_state.html">
+											 advertising for my football club
+										</td>
+										<td>
+											 Wide Area
+										</td>
+										<td>
+											 Giza
+										</td>
+										<td>
+											 Egypt
+										</td>
+										<td>
+											 <a type="button" class="btn btn-fit-height grey-salt" href="Edit.html">
                                                 Edit 
-                                            </a>
-                                            <a type="button"  class="btn btn-danger">
-                                            Delete
-                                            </a>
-                                             <a type="button" class="btn btn-info">
-                                            View
-                                            </a>
-                                        
-										</td>
-										<td>
-											<div class="bootstrap-switch-container" style="width: 147px; margin-left: 0px;"><span class="bootstrap-switch-handle-on bootstrap-switch-success" style="width: 49px;"></span><span class="bootstrap-switch-label" style="width: 49px;">&nbsp;</span><span class="bootstrap-switch-handle-off bootstrap-switch-warning" style="width: 49px;"></span><input type="checkbox" class="make-switch" checked="" data-on-color="success" data-off-color="warning"></div>
-										</td>
-									</tr>
-									<tr>
-										<td>
-											 2
-										</td>
-										<td>
-											 ConditionState 
-										</td>
-										<td>
-											 1/1/2015
-										</td>
-										<td>
-											 112333444555
-										</td>
-										<td>
-											 High
-										</td>
-										<td>
-											 <a type="button" class="btn btn-fit-height grey-salt" href="edit_condition_state.html">
-                                                Edit 
-                                            </a>
-                                            <a type="button"  class="btn btn-danger">
-                                            Delete
                                             </a>
                                              <a type="button" class="btn btn-info">
                                             View
@@ -634,26 +685,64 @@ License: You must have a valid license purchased only from themeforest(the above
 									</tr>
 									<tr>
 										<td>
-											 3
-										</td>
-										<td>
-											 ConditionState 
-										</td>
-										<td>
-											 1/1/2015
+											 1
 										</td>
 										<td>
 											 112333444555
 										</td>
 										<td>
-											 High
+											 John Doe
 										</td>
 										<td>
-											 <a type="button" class="btn btn-fit-height grey-salt" href="edit_condition_state.html">
+											 advertising for my football club
+										</td>
+										<td>
+											 Wide Area
+										</td>
+										<td>
+											 Giza
+										</td>
+										<td>
+											 Egypt
+										</td>
+										<td>
+											 <a type="button" class="btn btn-fit-height grey-salt" href="Edit.html">
                                                 Edit 
                                             </a>
-                                            <a type="button"  class="btn btn-danger">
-                                            Delete
+                                             <a type="button" class="btn btn-info">
+                                            View
+                                            </a>
+                                        
+										</td>
+										<td>
+											 <div class="bootstrap-switch-container" style="width: 147px; margin-left: 0px;"><span class="bootstrap-switch-handle-on bootstrap-switch-success" style="width: 49px;"></span><span class="bootstrap-switch-label" style="width: 49px;">&nbsp;</span><span class="bootstrap-switch-handle-off bootstrap-switch-warning" style="width: 49px;"></span><input type="checkbox" class="make-switch" checked="" data-on-color="success" data-off-color="warning"></div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											 1
+										</td>
+										<td>
+											 112333444555
+										</td>
+										<td>
+											 John Doe
+										</td>
+										<td>
+											 advertising for my football club
+										</td>
+										<td>
+											 Wide Area
+										</td>
+										<td>
+											 Giza
+										</td>
+										<td>
+											 Egypt
+										</td>
+										<td>
+											 <a type="button" class="btn btn-fit-height grey-salt" href="Edit.html">
+                                                Edit 
                                             </a>
                                              <a type="button" class="btn btn-info">
                                             View
@@ -668,10 +757,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									</table>
 								</div>
 							</div>
-							
-			
-				<!-- END PAGE HEADER-->
-				<!-- BEGIN PAGE CONTENT-->
+					</div>
 				<!-- END PAGE CONTENT-->
 			</div>
 		</div>
@@ -684,7 +770,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- BEGIN FOOTER -->
 	<div class="page-footer">
 		<div class="page-footer-inner">
-			 2017 &copy; Copyrights by Yaftah.  
+			 2017 © Copyrights by Yaftah. 
 		</div>
 		<div class="scroll-to-top">
 			<i class="icon-arrow-up"></i>
@@ -732,6 +818,6 @@ Demo.init(); // init demo features
         });
     </script>
 <!-- END JAVASCRIPTS -->
-</body>
+
 <!-- END BODY -->
-</html>
+</body></html>
