@@ -165,7 +165,7 @@ Page Header
   height: 20px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(../img/sidebar-toggler.png);
+  background-image: url(../img/sidebar-toggler-inverse.png);
 }
 .page-header.navbar .menu-toggler:hover {
   filter: alpha(opacity=100);
@@ -176,7 +176,9 @@ Page Header
   margin: 23px 0 0 0;
 }
 .page-sidebar-closed.page-sidebar-closed-hide-logo .page-header.navbar .menu-toggler.sidebar-toggler {
-  margin-right: 17px;
+  margin-right: -85px;
+  margin-top: -10px;
+  color: black;
 }
 .page-header.navbar .menu-toggler.responsive-toggler {
   display: none;
@@ -601,6 +603,7 @@ Page Header
   }
   .page-header.navbar .page-logo img {
     margin-left: 4px !important;
+    margin-top: -13px;
   }
   .page-header.navbar .menu-toggler.sidebar-toggler {
     display: none !important;
