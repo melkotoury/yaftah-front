@@ -58,7 +58,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- DOC: Apply "page-footer-fixed" class to the body element to have fixed footer -->
 <!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
 <!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
-<body class="page-boxed page-header-fixed page-container-bg-solid page-sidebar-closed page-sidebar-closed-hide-logo">
+<body class="page-boxed page-header-fixed page-container-bg-solid page-sidebar-closed-hide-logo">
 <!-- BEGIN HEADER -->
 <div class="page-header navbar navbar-fixed-top">
 	<!-- BEGIN HEADER INNER -->
@@ -160,7 +160,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<ul class="nav navbar-nav pull-right">
 					<!-- BEGIN NOTIFICATION DROPDOWN -->
 					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-					<li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+					<li class="dropdown hide dropdown-extended dropdown-notification" id="header_notification_bar">
 						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 						<i class="icon-bell"></i>
 						<span class="badge badge-default">
@@ -270,7 +270,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<!-- END NOTIFICATION DROPDOWN -->
 					<!-- BEGIN INBOX DROPDOWN -->
 					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-					<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
+					<li class="dropdown hide dropdown-extended dropdown-inbox" id="header_inbox_bar">
 						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 						<i class="icon-envelope-open"></i>
 						</a>
@@ -595,11 +595,6 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>
 					</ul>
 					<div class="page-toolbar">
-						<div class="btn-group pull-right">
-							<a type="button" class="btn btn-fit-height grey-salt" href="new_account.html">
-							New <i class="icon-doc"></i>
-                            </a>
-						</div>
 					</div>
 				</div>
 				<!-- END PAGE HEADER-->
@@ -713,24 +708,10 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="tab-content">
 												<!-- PERSONAL INFO TAB -->
 												<div class="tab-pane active" id="tab_1_1">
-													<form role="form" action="#">
-														<div class="form-group">
-															<label class="control-label">First Name</label>
-															<input type="text" placeholder="John" class="form-control"/>
-														</div>
-														<div class="form-group">
-															<label class="control-label">Last Name</label>
-															<input type="text" placeholder="Doe" class="form-control"/>
-														</div>
-														<div class="form-group">
-															<label class="control-label">Mobile Number</label>
-															<input type="text" placeholder="+1 646 580 DEMO (6284)" class="form-control"/>
-														</div>
-														<div class="form-group">
-															<label class="control-label">Email Address</label>
-															<input type="text" placeholder="Design, Web etc." class="form-control"/>
-														</div>
-													</form>
+													<h4><span><label>First Name :</label></span> Marcus </h4>
+													<h4><span><label>Last Name :</label></span> Doe</h4>
+													<h4><span><label>Mobile Number :</label></span> (002)022663598</h4>
+													<h4><span><label>E-mail :</label></span> Marcus.Doe@ymail.com</h4>				
 												</div>
 												<!-- END PERSONAL INFO TAB -->
 											</div>
