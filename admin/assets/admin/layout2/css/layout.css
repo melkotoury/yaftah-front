@@ -173,11 +173,14 @@ Page Header
 }
 .page-header.navbar .menu-toggler.sidebar-toggler {
   float: right;
-  margin: 23px 0 0 0;
+  margin: 20px -8px 0 0px;
+  padding: 17px;
+  border: 1px solid;
+  border-radius: 20% !important;
 }
 .page-sidebar-closed.page-sidebar-closed-hide-logo .page-header.navbar .menu-toggler.sidebar-toggler {
-  margin-right: -85px;
-  margin-top: -10px;
+  margin-right: -101px;
+  margin-top: -35px;
   color: black;
 }
 .page-header.navbar .menu-toggler.responsive-toggler {
