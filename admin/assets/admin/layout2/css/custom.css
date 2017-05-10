@@ -79,3 +79,11 @@ h4 span label
 	margin-left: 20%;
 	margin-top: 10%;
 }
+.no-slide
+{
+	overflow-x: hidden;
+}
+#map
+{
+	display: block;
+}
